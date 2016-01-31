@@ -1,0 +1,22 @@
+.global a, c
+.extern b
+.text
+jo 16 a
+jo 16 e
+jo 16 b
+jo 16 d
+d: .long d
+mov 4 5
+mov 5 6
+mov 6 4
+.data 16
+.skip 8
+e: .long d
+.long c
+.long .bss
+a: .long b
+.bss
+c: .skip 8
+.end
+
+//ovaj deo se ne prevodi

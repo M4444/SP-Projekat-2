@@ -1,0 +1,11 @@
+#Symbol table
+#Num:	Name	Sec	Val	Size	Bind
+0:		UND	0	0	local
+1:	.text	.text	0	32	local
+2:	.data	.data	16	24	local
+3:	.bss	.bss	0	8	local
+4:	a	.data	36	0	global
+5:	c	.bss	0	0	global
+6:	b	UND	0	0	global
+7:	e	.data	24	0	local
+8:	d	.text	16	0	local

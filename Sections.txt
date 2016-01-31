@@ -1,0 +1,17 @@
+#.rel.text
+offset		Type		Val[.text]:
+00000000	RT_IMM21_PC	4
+00000008	RT_IMM21_PC	6
+00000020	RT_IMM32	1
+#.rel.data
+offset		Type		Val[.data]:
+00000028	RT_IMM32	1
+00000032	RT_IMM32	5
+00000040	RT_IMM32	6
+#.text
+4e 1f ff fc   4e 00 00 00   4e 1f ff fc   5e 00 00 00   
+00 00 00 0c   0c 65 50 00   00 65 94 00   00 65 18 00   
+
+#.data
+24 00 00 00   18 00 00 00   00 00 00 0c   0c ff ff ff   
+fc fc 00 00   00 00 00 ff   ff ff fc fc   
